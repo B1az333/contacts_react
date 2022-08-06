@@ -1,4 +1,13 @@
-# Contacts
+# Website React Contacts
+
+## Stack
+
+- Typescript
+- React
+- Redux-toolkit
+- MUI
+
+## Contacts
 
 1. Данные доступны с сервера [https://randomuser.me/api/?results=200](https://randomuser.me/api/?results=100)
 
