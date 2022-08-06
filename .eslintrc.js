@@ -17,5 +17,9 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-var-requires': 0,
+    'no-param-reassign': [
+      'error',
+      { props: true, ignorePropertyModificationsFor: ['state'] },
+    ],
   },
 };
