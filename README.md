@@ -1,5 +1,46 @@
 # Website React Contacts
 
+## Installation
+
+To get the project up and running, and view components in the browser, complete the following steps:
+
+1. Download and install Node
+2. Download and install Yarn
+3. Clone this repo
+4. Install project dependencies: `yarn install`
+
+## Development
+
+Start development
+
+* `yarn dev`
+
+## Production
+
+Build production
+
+* `yarn build`
+
+## Other
+
+### VS Code config
+
+```json
+{
+  // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
+  "editor.formatOnSave": false,
+  // Enable/disable default JavaScript formatter (For Prettier)
+  "javascript.format.enable": true,
+  // Use 'prettier-eslint' instead of 'prettier'. Other settings will only be fallbacks in case they could not be inferred from eslint rules.
+  "prettier.eslintIntegration": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+}
+```
+
 ## Stack
 
 - Typescript

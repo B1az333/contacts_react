@@ -8,7 +8,7 @@
     "scripts": {
         "dev": "webpack serve --mode=development",
         "build": "webpack --mode production --progress --hide-modules",
-        "tscheck": "tsc",
+        "tscheck": "tsc -w",
         "lint": "eslint --ext .js,.ts,.tsx ."
     },
     "devDependencies": {
