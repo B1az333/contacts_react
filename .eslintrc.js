@@ -10,7 +10,18 @@ module.exports = {
   ],
 
   rules: {
+    'react/jsx-filename-extension': [
+      'error',
+      {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    ],
     'import/prefer-default-export': 'off',
+    'no-use-before-define': 'off',
+    'react-hooks/exhaustive-deps': 'off',
+    'no-shadow': 'off',
+    'react/require-default-props': 'off',
+    'react/prop-types': 'off',
     'react/function-component-definition': [
       2,
       {
@@ -32,6 +43,31 @@ module.exports = {
     'no-param-reassign': [
       'error',
       { props: true, ignorePropertyModificationsFor: ['state'] },
+    ],
+    'newline-after-var': 'error',
+    'arrow-body-style': 'error',
+    'padding-line-between-statements': [
+      'error',
+      {
+        blankLine: 'always',
+        prev: '*',
+        next: 'export',
+      },
+      {
+        blankLine: 'any',
+        prev: 'export',
+        next: 'export',
+      },
+    ],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
     ],
   },
   overrides: [
